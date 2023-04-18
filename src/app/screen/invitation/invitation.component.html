@@ -1,0 +1,55 @@
+<div class="container pt-5 text ">
+
+    <p align="justify"> Tudo isso, pra te chamar para conhecer o Chile comigo.</p>
+
+    <small align="justify">fiz ate uma mini sugestao para os 5 dias que vamos ficar la</small>
+
+    <h5>Santiago</h5>
+    <p><b>1 - Cajon Del Maipo</b></p>
+    <div class="image">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/93/62/04/embalse-el-yeso.jpg?w=1200&h=-1&s=1"
+            alt="" />
+        <!-- ngx-parallax [speed]="0.2" property="opacity" /> -->
+    </div>
+
+    <p><b>2 - Cerro San Cristóbal + Passeio pelo centro</b></p>
+    <div class="image">
+        <img src="https://fulltour.com.br/uploads/blog/df253d03ad674603956a484da311a6cc.jpeg" alt="" alt="" />
+        <!-- ngx-parallax  [speed]="0.2" property="opacity" /> -->
+    </div>
+
+    <h5>Atacama</h5>
+    <p><b>1- Tour Astronômico do Atacama</b></p>
+    <div class="image">
+        <img src="https://emalgumlugardomundo.com.br/wp-content/uploads/2019/06/Tour-Astronomico-do-Atacama-Chile-5.jpg"
+            alt="" />
+        <!-- ngx-parallax [speed]="0.2" property="opacity" /> -->
+    </div>
+
+    <p><b>2- Piedras Rojas + Lagunas Altiplânicas</b></p>
+    <div class="image">
+        <img src="https://www.queroviajarmais.com/wp-content/webp-express/webp-images/uploads/2018/03/piedras-rojas-deserto-atacama.jpg.webp"
+            alt="" />
+        <!-- ngx-parallax [speed]="0.2" property="opacity" /> -->
+    </div>
+
+    <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit
+        anim id est laborum quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo dolor in
+        reprehenderit amet.</p>
+
+    <div class="d-flex bd-highlight mb-3">
+        <div class="me-auto p-2 bd-highlight">
+            <button class="btn btn btn-outline-success">sim</button>
+        </div>
+        <div  class="p-2 bd-highlight" (mousemove)="transformButton(true)" (mouseleave)="transformButton(false)">
+            <button class="btn btn btn-outline-danger" *ngIf="showNo">nao</button>
+            <button class="btn btn btn-outline-success" *ngIf="!showNo">sim</button>
+        </div>
+    </div>
+
+</div>

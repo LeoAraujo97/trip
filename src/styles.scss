@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./assets/scss/main.scss";
+body{
+    background-image: url('https://img.freepik.com/vetores-premium/padrao-sem-emenda-com-lhamas-bonitos-balao-de-ar-e-cactos-fundo-com-bebes-alpaca-engracados-para-texteis-roupas-infantis-papeis-de-parede-ilustracao-vetorial_103291-300.jpg?w=2000');
+    background-size: 253px 253px;
+}
+.text {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 10px 5px 5px #70809073;
+    border: 1px solid #70809073;
+    align-self: center;
+    justify-self: center;
+}
