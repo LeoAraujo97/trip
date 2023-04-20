@@ -1,8 +1,8 @@
 <div class="container pt-5 text ">
 
-    <p align="justify"> Tudo isso, pra te chamar para conhecer o Chile comigo.</p>
+    <p align="justify"> Quero te convidar para conhecer o Chile comigo.</p>
 
-    <small align="justify">fiz ate uma mini sugestao para os 5 dias que vamos ficar la</small>
+    <small align="justify">Aqui uma mini sugestao para os 5 dias que vamos ficar la</small>
 
     <h5>Santiago</h5>
     <p><b>1 - Cajon Del Maipo</b></p>
@@ -33,22 +33,15 @@
         <!-- ngx-parallax [speed]="0.2" property="opacity" /> -->
     </div>
 
-    <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu
-        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit
-        anim id est laborum quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo dolor in
-        reprehenderit amet.</p>
+    <p align="justify">E ai amor, bora?</p>
 
     <div class="d-flex bd-highlight mb-3">
         <div class="me-auto p-2 bd-highlight">
-            <button class="btn btn btn-outline-success">sim</button>
+            <button class="btn btn btn-outline-success" routerLink="/trip-date">sim</button>
         </div>
         <div  class="p-2 bd-highlight" (mousemove)="transformButton(true)" (mouseleave)="transformButton(false)">
             <button class="btn btn btn-outline-danger" *ngIf="showNo">nao</button>
-            <button class="btn btn btn-outline-success" *ngIf="!showNo">sim</button>
+            <button class="btn btn btn-outline-success" *ngIf="!showNo" routerLink="/trip-date">sim</button>
         </div>
     </div>
 
